@@ -8,6 +8,10 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+/* -----------------------------------------------
+INDEX
+-------------------------------------------------- */
+
 /* HEADER */
 
 header {
@@ -72,6 +76,7 @@ main p {
   font-size: 20px;
   width: 614px;
   line-height: 130%;
+  padding-left: 20px;
 }
 
 .unicornio {
@@ -87,7 +92,7 @@ main p {
   box-shadow: 8px 8px 0px 0px rgba(145, 71, 255, 1);
 }
 
-button {
+.intro button {
   margin-top: 80px;
   width: 254px;
   height: 48px;
@@ -101,7 +106,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.intro button:hover {
   background: rgba(145, 71, 255, 0.9);
 }
 
@@ -110,7 +115,8 @@ button:hover {
 .works {
   position: relative;
   margin-top: 76px;
-  background: #f0f0f0;
+  background: #fcfcfc;
+  height: 855px;
 }
 
 .work-1 {
@@ -167,6 +173,21 @@ button:hover {
   position: absolute;
   top: 200px;
   left: 775px;
+  width: 254px;
+  height: 48px;
+  background: var(--main-color);
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 99%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.work-1 button:hover {
+  background: rgba(145, 71, 255, 0.9);
 }
 
 .work-2 {
@@ -223,12 +244,27 @@ button:hover {
   position: absolute;
   top: 200px;
   left: 775px;
+  width: 254px;
+  height: 48px;
+  background: var(--main-color);
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 99%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.work-2 button:hover {
+  background: rgba(145, 71, 255, 0.9);
 }
 
 /* FOOTER */
 
 footer {
-  margin-top: 940px;
+  margin-top: 24px;
   position: relative;
   text-align: center;
 }
@@ -260,4 +296,127 @@ footer small {
   line-height: 99%;
   color: rgba(51, 51, 51, 0.3);
   padding-bottom: 20px;
+}
+
+/* -----------------------------------------------
+SOBRE MIM
+-------------------------------------------------- */
+
+.sobre {
+  margin-left: 15%;
+}
+
+.sobre h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 98%;
+}
+
+.sobre p {
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.sobre span {
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.sobre img {
+  position: absolute;
+  top: 143px;
+  margin-top: 100px;
+  margin-left: 846px;
+  box-shadow: 8px 8px 0px 0px rgba(145, 71, 255, 1);
+}
+
+.sobre button {
+  margin-top: 50px;
+  width: 254px;
+  height: 48px;
+  background: var(--main-color);
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 99%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.sobre button:hover {
+  background: rgba(145, 71, 255, 0.9);
+}
+
+/* REFERENCIAS */
+
+.referencias {
+  position: relative;
+  margin-top: 76px;
+  background: #fcfcfc;
+  height: 540px;
+}
+
+.referencias h3 {
+  position: absolute;
+  margin-left: 15%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 99%;
+}
+
+.renivaldo-quote {
+  position: absolute;
+  width: 1077px;
+  height: 102px;
+  margin-left: 15%;
+  padding-left: 15px;
+  margin-top: 52px;
+  top: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.renivaldo-cite {
+  position: absolute;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  top: 300px;
+  left: 300px;
+}
+
+.renivaldo-cite:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+
+.anderson-quote {
+  position: absolute;
+  width: 1077px;
+  height: 102px;
+  margin-left: 15%;
+  padding-left: 15px;
+  margin-top: 320px;
+  top: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.anderson-cite {
+  position: absolute;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  top: 475px;
+  left: 300px;
 }
