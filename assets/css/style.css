@@ -420,3 +420,82 @@ SOBRE MIM
   top: 475px;
   left: 300px;
 }
+
+/* -----------------------------------------------
+                      CASE
+-------------------------------------------------- */
+
+.header {
+  position: relative;
+  top: 95px;
+  left: 13%;
+}
+
+.header small {
+  position: absolute;
+  top: -15px;
+  left: 1050px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 99%;
+  letter-spacing: 0.12em;
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.header h1 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 98%;
+  color: #f0f0f0;
+  width: 1135px;
+  top: 200px;
+  left: 5%;
+}
+
+.header p {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  color: #f0f0f0;
+  width: 1135px;
+  top: 360px;
+  left: 4.3%;
+}
+
+table {
+  margin-top: 32px;
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  position: absolute;
+  width: 1078px;
+  height: 271px;
+  left: 9%;
+}
+
+table .title {
+  text-align: right;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.12em;
+  color: var(--main-black);
+}
+
+table td {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.12em;
+  color: var(--main-black);
+  padding-left: 72px;
+}
+
+.prototipo {
+  position: relative;
+  top: 450px;
+  margin-left: 15%;
+}
