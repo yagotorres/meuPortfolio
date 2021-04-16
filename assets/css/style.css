@@ -428,7 +428,7 @@ SOBRE MIM
 .header {
   position: relative;
   top: 95px;
-  left: 13%;
+  left: 11%;
 }
 
 .header small {
@@ -471,9 +471,9 @@ table {
   background: #f0f0f0;
   border-radius: 5px;
   position: absolute;
-  width: 1078px;
+  width: 1294px;
   height: 271px;
-  left: 9%;
+  left: 4%;
 }
 
 table .title {
@@ -498,4 +498,40 @@ table td {
   position: relative;
   top: 450px;
   margin-left: 15%;
+}
+
+.prototipo h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.prototipo p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  margin-top: 600px;
+}
+
+.prototipo button {
+  position: absolute;
+  margin-top: 834px;
+  left: 33%;
+  width: 254px;
+  height: 48px;
+  background: var(--main-color);
+  color: var(--main-white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 99%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.prototipo button:hover {
+  background: rgba(145, 71, 255, 0.9);
 }
