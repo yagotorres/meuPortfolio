@@ -491,7 +491,7 @@ table td {
   line-height: 150%;
   letter-spacing: 0.12em;
   color: var(--main-black);
-  padding-left: 72px;
+  padding-left: 15px;
 }
 
 .prototipo {
@@ -512,10 +512,6 @@ table td {
   letter-spacing: 0.02em;
 }
 
-.footer {
-  margin-top: 600px;
-}
-
 .prototipo button {
   position: absolute;
   margin-top: 834px;
@@ -534,4 +530,8 @@ table td {
 
 .prototipo button:hover {
   background: rgba(145, 71, 255, 0.9);
+}
+
+.footer {
+  margin-top: 600px;
 }
